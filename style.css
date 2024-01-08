@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+header {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/BannerImage.png);
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.banner-title {
+    width: 632px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.banner-title h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.offer-section {
+    width: 800px;
+    margin: 100px auto;
+}
+
+.offer-text {
+    text-align: center;
+}
+
+.offer-text h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-text p {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.midnight-bg {
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 126px;
+    border-radius: 15px;
+}
+
+.midnight-party {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.text-container p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 24px 0px 48px 0px;
+}
+
+.text-container button{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid black;
+}
